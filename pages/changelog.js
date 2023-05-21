@@ -42,8 +42,6 @@
     function renderFeatureDetails(fields) {
       const areTags= fields.tags
       let  result
-      (areTags ? result="YAY": result= "NAY" )
-      console.log(result)
       return renderFeatureHeader(fields) +
         '<p class="product-categories">' +'<h3>' +
         fields.title + '</h3>' +

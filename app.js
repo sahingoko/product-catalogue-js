@@ -12,9 +12,9 @@
     // Initializes the Contentful client with the required credentials for a
     // product catalog space. Feel free to replace them with our own.
     PC.contentfulClient = contentful.createClient({
-      accessToken: 'BYlX0SIIUM3F7Q5lemr3voaEJ3HPHP4HzZTr1bkzdjc',
+      accessToken: 'ayILxcfz2Zi5tkI0P40EAm_F23J8KT3uW28U66VUXPY',
       space: '95qr1uym2jyw',
-      host: 'cdn.contentful.com'
+      host: 'preview.contentful.com'
     })
     console.log('Contentful Client created')
     // IDs of some of the Content Types used in the app
