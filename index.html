@@ -11,11 +11,10 @@
       <div class="app-container">
         <nav>
           <div class="nav-container">
-            <img src="./contentful.svg" width="157" height="32"/>
+            <img src="./totogi-logo.png" width="150" height="64"/>
               <ul>
-                <li><a href="" data-nav>Products</a></li>
-                <li><a href="categories" data-nav>Categories</a></li>
-                <li><a href="about" data-nav>About</a></li>
+                <li><a href="changelog" data-nav>Change Log</a></li>
+                <li><a href="releaseNote" data-nav>Release Note</a></li>
               </ul>
           </div>
         </nav>
@@ -30,18 +29,18 @@
         // and declared in the files inside of pages/
         pages: {},
         utils: {}
+      
       }
+      console.log('PC initialized')
     </script>
     <script src="./es6-promise.js" charset="utf-8"></script>
     <script src="https://unpkg.com/contentful@3.3.5/browser-dist/contentful.js" charset="utf-8"></script>
     <script src="https://unpkg.com/marked@0.3.5/marked.min.js" charset="utf-8"></script>
     <script src="./utils.js" charset="utf-8"></script>
     <script src="./app.js" charset="utf-8"></script>
-    <script src="./pages/products.js" charset="utf-8"></script>
-    <script src="./pages/product.js" charset="utf-8"></script>
-    <script src="./pages/brand.js" charset="utf-8"></script>
-    <script src="./pages/categories.js" charset="utf-8"></script>
-    <script src="./pages/about.js" charset="utf-8"></script>
+    <script src="./pages/changelog.js" charset="utf-8"></script>
+    <script src="./pages/releaseNote.js" charset="utf-8"></script>
+
     <script>
       PC.init()
     </script>
